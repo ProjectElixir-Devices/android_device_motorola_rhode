@@ -19,7 +19,7 @@ TARGET_SCREEN_DENSITY := 400
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 ODM_MANIFEST_SKUS += b
 ODM_MANIFEST_B_FILES := $(DEVICE_PATH)/sku/manifest_b.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/aosp/config/device_framework_matrix.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/ext_config/rhode-default.config

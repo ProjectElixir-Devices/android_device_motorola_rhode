@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rhode.mk
+    $(LOCAL_DIR)/aosp_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_rhode-user \
-    lineage_rhode-userdebug \
-    lineage_rhode-eng
+    aosp_rhode-user \
+    aosp_rhode-userdebug \
+    aosp_rhode-eng
