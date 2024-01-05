@@ -1,0 +1,4 @@
+device/motorola
+hardware/motorola
+vendor/motorola
+kernel/motorola
