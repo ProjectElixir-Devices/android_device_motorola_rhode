@@ -11,4 +11,7 @@ git clone --depth=1 https://github.com/ProjectElixir-Devices/vendor_motorola_rho
 rm -rf hardware/motorola
 git clone --depth=1 https://github.com/LineageOS/android_hardware_motorola -b lineage-21 hardware/motorola
 
+rm -rf hardware/qcom-caf/sm8250/audio
+git clone --depth=1 -b arrow-13.1-caf-sm8250 https://github.com/ArrowOS/android_hardware_qcom_audio hardware/qcom-caf/sm8250/audio
+
 rm -rf hardware/qcom-caf/bengal/gps
